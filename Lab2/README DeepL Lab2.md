@@ -64,6 +64,7 @@ $$\text{Recall} = \frac{TP}{TP + FN}$$
 ### Результати та порівняння правил на Validation
 
 ROC-AUC на Validation: 0.9733
+
 Оптимальний поріг ($t^*$): 0.031194
 
 Графіки побудовані та збережені у `results/curves.png`
