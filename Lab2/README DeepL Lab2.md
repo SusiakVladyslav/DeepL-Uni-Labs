@@ -7,10 +7,10 @@
 ### Команди для відтворення запуску через uv:
 
 Навчання моделі та аналіз з вихідного CSV-файлу:
-```uv run python DeepL_Lab2.py --data creditcard.csv --out results```
+```uv run python "Lab2\DeepL_Lab2.py" --data "Lab2\creditcard.csv" --out results```
 
 Аналіз зі збережених прогнозів (без повторного навчання та без CSV):
-```uv run python DeepL_Lab2.py --saved results```
+```uv run python "Lab2\DeepL_Lab2.py" --saved "Lab2\results"```
 
 ### Поділ даних та стандартизація
 
