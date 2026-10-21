@@ -6,8 +6,15 @@
 
 ### Команди для відтворення запуску через uv:
 
+Для відтворення результатів використовується зафіксоване середовище через uv. 
+Підготовка середовища
+```bash
+uv venv --python 3.12
+uv pip install -r requirements.txt
+```
+
 Навчання моделі та аналіз з вихідного CSV-файлу:
-```uv run python "Lab2\DeepL_Lab2.py" --data "Lab2\creditcard.csv" --out results```
+```uv run python "Lab2\DeepL_Lab2.py" --data "Lab2\creditcard.csv" --out "Lab2\results"```
 
 Аналіз зі збережених прогнозів (без повторного навчання та без CSV):
 ```uv run python "Lab2\DeepL_Lab2.py" --saved "Lab2\results"```
