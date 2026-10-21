@@ -14,10 +14,14 @@ uv pip install -r requirements.txt
 ```
 
 Навчання моделі та аналіз з вихідного CSV-файлу:
-```uv run python "Lab2\DeepL_Lab2.py" --data "Lab2\creditcard.csv" --out "Lab2\results"```
+```bash
+uv run python "Lab2\DeepL_Lab2.py" --data "Lab2\creditcard.csv" --out "Lab2\results"
+```
 
 Аналіз зі збережених прогнозів (без повторного навчання та без CSV):
-```uv run python "Lab2\DeepL_Lab2.py" --saved "Lab2\results"```
+```bash
+uv run python "Lab2\DeepL_Lab2.py" --saved "Lab2\results"
+```
 
 ### Поділ даних та стандартизація
 
