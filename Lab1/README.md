@@ -142,7 +142,7 @@ $$g_{\text{num}} = \frac{L(\theta + \epsilon) - L(\theta - \epsilon)}{2\epsilon}
 Виконайте з кореневої теки репозиторію:
 ```bash
 uv sync --locked
-uv run --locked lab1/lab1.py
+uv run --locked Lab1/lab1.py
 ```
 
 Команда послідовно виводить таблицю звірки з PyTorch, результати чисельного диференціювання та звіт про дослід із навмисною помилкою
