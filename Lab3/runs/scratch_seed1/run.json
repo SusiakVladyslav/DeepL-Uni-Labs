@@ -1,0 +1,92 @@
+{
+  "regime": "scratch",
+  "seed": 1,
+  "classes": [
+    "buildings",
+    "forest",
+    "glacier",
+    "mountain",
+    "sea",
+    "street"
+  ],
+  "img_size": 160,
+  "crop_scale": [
+    0.7,
+    1.0
+  ],
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "split_seed": 0,
+  "train_samples_per_class": 200,
+  "batch_size_train": 32,
+  "batch_size_eval": 64,
+  "num_workers": 0,
+  "epochs": 8,
+  "weight_decay": 0.0001,
+  "regime_config": {
+    "pretrained": false,
+    "trainable_modules": [
+      "conv1",
+      "bn1",
+      "layer1",
+      "layer2",
+      "layer3",
+      "layer4",
+      "fc"
+    ],
+    "eval_modules": [],
+    "lr_groups": [
+      {
+        "modules": [
+          "conv1",
+          "bn1",
+          "layer1",
+          "layer2",
+          "layer3",
+          "layer4",
+          "fc"
+        ],
+        "lr": 0.003
+      }
+    ],
+    "expected_trainable_params": 11179590
+  },
+  "split_sha256": "b29c53c7e41b0c4bb36e54d8ca3a9bcbac11eca96abeab8ba4fbcf5937a160b8",
+  "git_commit": "b1c849a87451de1cec934c98a20f2961cab2e9eb",
+  "git_dirty": true,
+  "python_version": "3.13.5",
+  "torch_version": "2.14.1+cpu",
+  "torchvision_version": "0.29.2+cpu",
+  "device": "cpu",
+  "train_loss_per_epoch": [
+    1.621263926823934,
+    1.2540466332435607,
+    1.1789991601308187,
+    1.1383959245681763,
+    1.0753881931304932,
+    1.0485938119888305,
+    1.05627406279246,
+    1.0133154582977295
+  ],
+  "val_macro_f1_per_epoch": [
+    0.4356327571311971,
+    0.27237823172373293,
+    0.42032186715509723,
+    0.4442283570147138,
+    0.5241767711346718,
+    0.38879914303904917,
+    0.46527464920989564,
+    0.43816809540098056
+  ],
+  "final_train_loss": 1.0133154582977295,
+  "final_val_macro_f1": 0.43816809540098056,
+  "training_time_sec": 393.612
+}

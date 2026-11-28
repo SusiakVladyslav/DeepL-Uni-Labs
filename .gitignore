@@ -1,2 +1,8 @@
 /Lab2/creditcard.csv
 /.idea
+/Lab3/seg_test/
+/Lab3/seg_train/
+/Lab4/lab4_fp32.onnx
+/Lab4/lab4_int8.onnx
+/Lab4/lab4_int8_per_tensor.onnx
+/Lab4/lab4_prep.onnx
