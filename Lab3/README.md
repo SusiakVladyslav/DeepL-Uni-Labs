@@ -150,6 +150,8 @@ uv run lab3-analyze --data-dir Lab3
 | 5     | `unfreeze` | 1         | 0.0651                    | 0.8743                           | 272.49              |
 | 6     | `unfreeze` | 2         | 0.1107                    | 0.8839                           | 274.43              |
 | 7     | `unfreeze` | 3         | 0.1447                    | 0.8704                           | 278.68              |
+
+
 ![Криві навчання семи запусків](figures/training_curves.png)
 ## 4. Розклад ефектів
 
